@@ -10,7 +10,6 @@ This repository contains an end-to-end data engineering project using AWS Cloud 
 - AWS Cloud: S3, IAM
 - PySpark
 - Python
-- Jupyter Notebook
 
 ### Project Structure
 - data_extraction/: Scripts for extracting data from Spotify APIs.
@@ -26,14 +25,11 @@ To get started with this project, follow the instructions below:
 - Install required Python packages.
 - Run the data extraction scripts.
 - Execute the data transformation pipeline using PySpark.
-- Analyze the transformed data using provided notebooks.
+- Analyze the transformed data using this README.
 
 ### Data Used
 I'm using data placed on kaggle, created by Tony Gordon Jr. [Spotify Dataset 2023](https://www.kaggle.com/datasets/tonygordonjr/spotify-dataset-2023)
 
-### License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ### Architecture Diagram
 
-<p align='center'><img src"img/architecture.png"></p>
+<p align='center'><img src="img/architecture.png"></p>
