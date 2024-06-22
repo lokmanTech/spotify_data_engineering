@@ -33,3 +33,7 @@ I'm using data placed on kaggle, created by Tony Gordon Jr. [Spotify Dataset 202
 
 ### License
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+### Architecture Diagram
+
+<a align="center"><img src"img/architecture.png"></a>
