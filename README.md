@@ -36,4 +36,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ### Architecture Diagram
 
-<a align="center"><img src"img/architecture.png"></a>
+<a align='center'><img src"img/architecture.png"></a>
