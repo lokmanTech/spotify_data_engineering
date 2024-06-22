@@ -28,5 +28,8 @@ To get started with this project, follow the instructions below:
 - Execute the data transformation pipeline using PySpark.
 - Analyze the transformed data using provided notebooks.
 
+### Data Used
+I'm using data placed on kaggle, created by Tony Gordon Jr. [Spotify Dataset 2023](https://www.kaggle.com/datasets/tonygordonjr/spotify-dataset-2023)
+
 ### License
 This project is licensed under the MIT License - see the LICENSE file for details.
