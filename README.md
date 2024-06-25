@@ -30,6 +30,49 @@ To get started with this project, follow the instructions below:
 ### Data Used
 I'm using data placed on kaggle, created by Tony Gordon Jr. [Spotify Dataset 2023](https://www.kaggle.com/datasets/tonygordonjr/spotify-dataset-2023)
 
+1. albums
+2. artists
+3. tracks
+
 ### Architecture Diagram
 
 <p align='center'><img src="img/architecture.png"></p>
+
+### Data Engineering Process
+
+1. `CREATE IAM USER`: On the first step we will create a new user via root account, then login via new IAM user for security measures. [Click here](https://www.youtube.com/watch?v=ubrE4xq9_9c) on how to setup IAM user.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+References:
+-  [Spotify playlist data engineering by Date with Data](https://www.youtube.com/watch?v=yIc5a7C8aHs)
+-  [Creating IAM user](https://www.youtube.com/watch?v=ubrE4xq9_9c)
