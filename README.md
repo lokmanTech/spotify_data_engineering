@@ -48,6 +48,8 @@ I'm using data placed on kaggle, created by Tony Gordon Jr. [Spotify Dataset 202
 <p align="center"><img src=img/quicksight-access.png></p>
 <p align="center"><img src=img/review-IAM.png></p>
 
+Once complete, you can signing via IAM account that you just created.
+
 
 
 
