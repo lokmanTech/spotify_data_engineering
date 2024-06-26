@@ -48,7 +48,20 @@ I'm using data placed on kaggle, created by Tony Gordon Jr. [Spotify Dataset 202
 <p align="center"><img src=img/quicksight-access.png></p>
 <p align="center"><img src=img/review-IAM.png></p>
 
-Once complete, you can signing via IAM account that you just created.
+Once complete, you can signing via IAM account that you just created, which the system will request Account ID number, Username and password. For first time log in, the system will auto asking to change the password accordingly.
+
+2. `CREATE S3 BUCKET`: Go to S3, and create a bucket. As for this project I've named my bucket as `my-spotify-de-project` you can named it whatever you want, do noted each bucket is unique and remembers its purpose.
+
+<p align="center"><img src=img/s3-bucket.png></p>
+
+Then, you can start to create two new folder `staging` and `datawarehouse`.
+
+<p align="center"><img src=img/create-folder.png></p>
+<p align="center"><img src=img/create-folder-02.png></p>
+
+3. `UPLOAD THE DATA`: 
+
+
 
 
 
