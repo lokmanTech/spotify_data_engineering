@@ -52,8 +52,6 @@ Once complete, you can signing via IAM account that you just created, which the 
 
 2. `CREATE S3 BUCKET`: Go to S3, and create a bucket. As for this project I've named my bucket as `my-spotify-de-project` you can named it whatever you want, do noted each bucket is unique and remembers its purpose.
 
-<p align="center"><img src=img/s3-bucket.png></p>
-
 Then, you can start to create two new folder `staging` and `datawarehouse`.
 
 <p align="center"><img src=img/create-folder.png></p>
