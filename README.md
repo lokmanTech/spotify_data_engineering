@@ -59,7 +59,15 @@ Then, you can start to create two new folder `staging` and `datawarehouse`.
 <p align="center"><img src=img/create-folder.png></p>
 <p align="center"><img src=img/create-folder-02.png></p>
 
-3. `UPLOAD THE DATA`: 
+3. `DOWNLOAD THE DATASET`: Before we begin processing, we must acquired dataset. Usually the data we will fetch from `DynamoDB` or `Database Instance`. But for this project since we outsource the dataset, we will upload it manually.
+
+Get the Dataset [HERE](https://www.kaggle.com/datasets/tonygordonjr/spotify-dataset-2023)
+
+4. `UPLOAD THE DATASET`: For this project, I've upload it inside `staging/` that just created earlier, and selected three files out of five files inside the dataset we retrieve earlier, I've upload Artist, Albums & Tracks. 
+
+<p align="center"><img src=img/upload-success.png></p>
+
+
 
 
 
