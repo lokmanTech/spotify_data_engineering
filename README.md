@@ -65,6 +65,8 @@ Get the Dataset [HERE](https://www.kaggle.com/datasets/tonygordonjr/spotify-data
 
 <p align="center"><img src=img/upload-success.png></p>
 
+5. `ETL JOB WITH AWS GLUE`: Now the tricky and charges apply. In this section, you should beware that this tools have charges 
+
 
 
 
