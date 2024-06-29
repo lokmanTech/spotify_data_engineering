@@ -86,7 +86,7 @@ Next, remove redundancy using `drop fields`
 
 <p align="center"><img src=img/ETL-pt-5.png></p>
 
-- Destination Target: There are variety destination target you can choose, I chose S3 bucket as my destination target. I use `parquet` as for the format.
+- Destination Target: There are variety destination target you can choose, I chose S3 bucket that we just created earlier inside `datawarehouse` folder as my destination target. I use `parquet` as for the format and `snappy` ensuring the file is `lightweight` 
 
 <p align="center"><img src=img/ETL-pt-6.png></p>
 
@@ -108,13 +108,41 @@ This role will allowing `s3fullaccess`
 
 <p align="center"><img src=img/run-job.png></p>
 
-- 
+This process might take a while, you might need coffee break here. It tooks  minutes to complete running the ETL jobs.
 
-6. 
+<p align="center"><img src=img/job-duration.png></p>
 
+<p align="center"><img src=img/ETL-job-successful.png></p>
 
+6. `CRAWLING WITH AWS GLUE`: This process will create catalog and database (db). Now, let's revisit the AWS GLUE and go to `crawlers` under `Data Catalog` and hit `Create Crawler`. 
 
+<p align="center"><img src=img/create-crawler.png></p>
 
+- `Set crawler properties`: I've named it as `ndl_`
+
+<p align="center"><img src=img/crawler-01.png></p>
+
+- `Choose data sources and classifiers`: Choosing the S3 location the files we just transformed earlier ../datawarehouse
+
+<p align="center"><img src=img/crawler-02.png></p>
+
+- `Configure security settings`: I'm choosing I'm role created earlier
+
+<p align="center"><img src=img/crawler-03.png></p>
+
+- `Set output and scheduling`: We need to create new Target database, now, open new tab and go to the AWS Glue and choose `database` under Data Catalog, `add database`. I've named it as `spotify`.
+
+<p align="center"><img src=img/database-01.png></p>
+
+<p align="center"><img src=img/database-02.png></p>
+
+<p align="center"><img src=img/crawler-04.png></p>
+
+- `Review and create`: once crawler is finished setting up you can create the crawler
+
+<p align="center"><img src=img/crawler-05.png></p>
+
+<p align="center"><img src=img/run-crawler.png></p>
 
 
 
