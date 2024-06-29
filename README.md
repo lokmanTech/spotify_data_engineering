@@ -65,7 +65,22 @@ Get the Dataset [HERE](https://www.kaggle.com/datasets/tonygordonjr/spotify-data
 
 <p align="center"><img src=img/upload-success.png></p>
 
-5. `ETL JOB WITH AWS GLUE`: Now the tricky and charges apply. In this section, you should beware that this tools have charges 
+5. `ETL JOB WITH AWS GLUE`: Now the tricky and charges apply. In this section, you should beware that this tools have charges. Below is the snippet on the `AWS GLUE: ETL Jobs` which I named it as DE-Spotify-ETL
+
+<p align="center"><img src=img/glue-architecture.png></p>
+
+Next, you based on the glue architecture you can follow on creating new jobs. 
+- Source: Select the Amazon S3 bucket. in this case, we have three items; artist.csv, tracks.csv & albums.csv so we will insert three s3 buckets.
+<p align="center"><img src=img/ETL-pt-1.png></p>
+<p align="center"><img src=img/ETL-pt-2.png></p>
+- Transform: We gonna join the relevant items as per images.
+<p align="center"><img src=img/ETL-pt-3.png></p>
+<p align="center"><img src=img/ETL-pt-4.png></p>
+Next, remove redundancy using `drop fields`
+<p align="center"><img src=img/ETL-pt-5.png></p>
+- Destination Target: There are variety destination target you can choose, I chose S3 bucket as my destination target. I use `parquet` as for the format.
+<p align="center"><img src=img/ETL-pt-6.png></p>
+6. 
 
 
 
