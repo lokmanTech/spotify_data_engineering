@@ -71,15 +71,45 @@ Get the Dataset [HERE](https://www.kaggle.com/datasets/tonygordonjr/spotify-data
 
 Next, you based on the glue architecture you can follow on creating new jobs. 
 - Source: Select the Amazon S3 bucket. in this case, we have three items; artist.csv, tracks.csv & albums.csv so we will insert three s3 buckets.
+
 <p align="center"><img src=img/ETL-pt-1.png></p>
+
 <p align="center"><img src=img/ETL-pt-2.png></p>
+
 - Transform: We gonna join the relevant items as per images.
+
 <p align="center"><img src=img/ETL-pt-3.png></p>
+
 <p align="center"><img src=img/ETL-pt-4.png></p>
+
 Next, remove redundancy using `drop fields`
+
 <p align="center"><img src=img/ETL-pt-5.png></p>
+
 - Destination Target: There are variety destination target you can choose, I chose S3 bucket as my destination target. I use `parquet` as for the format.
+
 <p align="center"><img src=img/ETL-pt-6.png></p>
+
+<p align="center"><img src=img/ETL-pt-7.png></p>
+
+- Creating new IAM role: We need to create new role from root account, allowing us to run the ETL jobs. Go to `root account` then go to `IAM` then click roles at the left navigation pane.
+
+<p align="center"><img src=img/IAM-role-glue.png></p>
+
+This role will allowing `s3fullaccess` 
+
+<p align="center"><img src=img/IAM-role-glue-02.png></p>
+
+- `Component for ETL Job Details`: before you can save the ETL job, you need pre-configure the settings beforehand. Here is my settings for this project, the red line indicates the key elements you need to focus when creating job, yellow highlight are settings that suits for this small project.
+
+<p align="center"><img src=img/glue-job-details.png></p>
+
+- `RUN THE JOB!!`: once everything have been configure, you can the ETL accordingly and visit the `Job run monitoring` to view the running status.
+
+<p align="center"><img src=img/run-jobs.png></p>
+
+- 
+
 6. 
 
 
