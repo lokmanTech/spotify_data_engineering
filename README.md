@@ -144,6 +144,19 @@ This process might take a while, you might need coffee break here. It tooks  min
 
 <p align="center"><img src=img/run-crawler.png></p>
 
+6. `QUERYING WITH ATHENA`: In this section we gonna query data through AWS Athena. At the Amazon Athena, you can go `Query Editor`, this tools is using `SQL` language. Then, in this query we need to adjust few settings. First you need to create new S3 bucket to insert the output querying location.
+
+<p align="center"><img src=img/athena-s3.png></p>
+
+<p align="center"><img src=img/athena-01.png></p>
+
+<p align="center"><img src=img/athena-02.png></p>
+
+<p align="center"><img src=img/athena-03.png></p>
+
+7. `DATA VISUALIZATION WITH QUICKSIGHT`: This tool will help you to create proper data visualization similar `powerBI` or `Tableau`. Now go to QUICKSIGHT. If this is your first time trying to access the `QUICKSIGHT` you need to login via your root account and create an account for `QUICKSIGHT`, Please be noted that tool have charges apply (quite expensive)
+
+<p align="center"><img src=img/quicksight.png></p>
 
 
 
@@ -160,6 +173,9 @@ This process might take a while, you might need coffee break here. It tooks  min
 
 
 
+source:
+
+- [Tutorial by Date with Data](https://www.youtube.com/watch?v=yIc5a7C8aHs)
 
 
 
