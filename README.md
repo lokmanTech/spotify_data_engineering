@@ -106,7 +106,7 @@ This role will allowing `s3fullaccess`
 
 - `RUN THE JOB!!`: once everything have been configure, you can the ETL accordingly and visit the `Job run monitoring` to view the running status.
 
-<p align="center"><img src=img/run-jobs.png></p>
+<p align="center"><img src=img/run-job.png></p>
 
 - 
 
