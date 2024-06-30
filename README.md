@@ -33,14 +33,14 @@ I'm using data placed on kaggle, created by Tony Gordon Jr. [Spotify Dataset 202
 
 <p align='center'><img src="img/architecture.png"></p>
 
-### Completed Data Source for reference
+### Completed Data Source for Reference
 
-|AWS Source|
-|:------:|
-|[S3 - Staging Folder](s3/staging/)|
-|[Glue - ETL](glue/ETL/scripts/)|
-|[S3 - DataWarehouse](s3/datawarehouse/)|
-|[Athena - result output saved in S3](s3/athena/2024/06/)|
+| AWS Source | Description |
+|:----------:|:-----------:|
+| [S3 - Staging Folder](s3/staging/)| Raw dataset used for this project, collected from [Kaggle](https://www.kaggle.com/datasets/tonygordonjr/spotify-dataset-2023).|
+| [Glue - ETL](glue/ETL/scripts/)  | Even though AWS provides a visual ETL pipeline architecture, these Python scripts might be handy for reference.|
+| [S3 - Data Warehouse](s3/datawarehouse/)| Transformed CSV files converted into Parquet format.|
+| [Athena - Result Output Saved in S3](s3/athena/2024/06/)| Logs for querying the information.|
 
 ### Data Engineering Process
 
