@@ -36,7 +36,7 @@ I'm using data placed on kaggle, created by Tony Gordon Jr. [Spotify Dataset 202
 ### Completed Data Source for reference
 
 |AWS Source|
-|:------:|:----:|
+|:------:|
 |[S3 - Staging Folder](s3/staging/)|
 |[Glue - ETL](glue/ETL/scripts/)|
 |[S3 - DataWarehouse](s3/datawarehouse/)|
