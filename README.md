@@ -1,21 +1,16 @@
 # spotify_data_engineering
 This repository contains an end-to-end data engineering project using AWS Cloud and PySpark, from Spotify data information. The project involves extracting Spotify data using APIs, transforming the data with PySpark, storing it in AWS S3, and performing data analysis. The project involves extracting, transforming, and loading Spotify data to build a data pipeline. Key components include:
 
-- Data Extraction: Retrieving Spotify data using APIs.
-- Data Transformation: Processing data with PySpark.
-- Data Storage: Storing transformed data in AWS S3.
-- Data Analysis: Analyzing data using PySpark.
+### Project Structure
+- Data Extraction: Retrieving Spotify data using upload files inserted into S3, This process can be done via APIs if the files stores somewhere else. 
+- Data Transformation: Processing data with PySpark, which in AWS GLUE have `VISUAL ETL` the user not necessarily need to understand to code, but need to have understanding the pipeline architecture.
+- Data Storage: Storing transformed data in AWS S3, which you need to create bucket and designated folder to place transformed files.
+- Data Analysis: In AWS, you can load the data that just we just transform and make analysis via Amazon Athena (with SQL) and QuickSight for Data Visualization.
 
 ### Technologies Used
 - AWS Cloud: S3, IAM
 - PySpark
 - Python
-
-### Project Structure
-- data_extraction/: Scripts for extracting data from Spotify APIs.
-- data_transformation/: PySpark scripts for transforming data.
-- data_storage/: Configurations for storing data in AWS S3.
-- data_analysis/: Notebooks and scripts for analyzing the data.
 
 ### Getting Started
 To get started with this project, follow the instructions below:
