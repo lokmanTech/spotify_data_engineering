@@ -33,6 +33,15 @@ I'm using data placed on kaggle, created by Tony Gordon Jr. [Spotify Dataset 202
 
 <p align='center'><img src="img/architecture.png"></p>
 
+### Completed Data Source for reference
+
+|AWS Source|
+|:------:|:----:|
+|[S3 - Staging Folder](s3/staging/)|
+|[Glue - ETL](glue/ETL/scripts/)|
+|[S3 - DataWarehouse](s3/datawarehouse/)|
+|[Athena - result output saved in S3](s3/athena/2024/06/)|
+
 ### Data Engineering Process
 
 1. `CREATE IAM USER`: On the first step we will create a new user via root account, then login via new IAM user for security measures. [Click here](https://www.youtube.com/watch?v=ubrE4xq9_9c) on how to setup IAM user. Then attaching necessary `direct policies` for this project, that's include S3, Glue, Athena & QuickSight access. And before setting up the account, do review the account before its creation, refer image below.
@@ -153,8 +162,19 @@ This process might take a while, you might need coffee break here. It tooks  min
 
 <p align="center"><img src=img/quicksight.png></p>
 
+<p align="center"><img src=img/quicksight-01.png></p>
 
+<p align="center"><img src=img/quicksight-02.png></p>
 
+<p align="center"><img src=img/quicksight-03.png></p>
+
+<p align="center"><img src=img/quicksight-04.png></p>
+
+<p align="center"><img src=img/quicksight-05.png></p>
+
+<p align="center"><img src=img/quicksight-06.png></p>
+
+<p align="center"><img src=img/quicksight-07.png></p>
 
 
 
